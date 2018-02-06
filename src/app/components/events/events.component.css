@@ -1,0 +1,70 @@
+.heading{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Exo', sans-serif;
+
+}
+.events-container{
+	min-height: 100vh;
+	padding: 10px;
+	background-color: white;
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/brickwall.png");
+}
+.events{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*margin-top: 10px;*/
+	flex-wrap: wrap;
+}
+.theEvent{
+	height: 400px;
+	display: inline-block;
+	margin-top: 10px;
+	/*width: 48%;*/
+	/*background-color: yellow;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+.currentEvent{
+	border: 10px solid rgba(0,0,0,0.6);
+	display: flex;
+	justify-content: center;
+}
+.nail img{
+	width: 50px;
+	height: 50px;
+	margin-top: -20px;
+}
+.currentEvent1{
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/frame.jpg");	
+	background-size: 640px 400px;
+	background-repeat: no-repeat;
+	width: 640px;
+	height: 400px;
+}
+.eventImg img{
+	width: 500px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 58px;
+}
+.otherEvent{
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.otherEvent img{
+	width: auto;
+	height: 100%;
+	max-width: 100%;
+	/*transition: width 0.5s;*/
+	transition: height 0.5s;
+}
+/*.otherEvent img:hover{
+	height: 450px;
+	z-index: 4;
+}*/

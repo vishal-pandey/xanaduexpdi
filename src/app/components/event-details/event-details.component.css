@@ -1,0 +1,32 @@
+.event-content{
+	min-height: 100vh;
+	background-color: rgba(245,245,250,1);
+}
+.event-container{
+	max-width: 800px;
+	/*background-color: rgba(111,111,111,0.1);*/
+	min-height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 60px 60px;
+}
+.heading{
+	font-size: 30px;
+	font-family: 'Exo', sans-serif;
+}
+.event-img{
+	width: 600px;
+	height: auto;
+}
+.img-container{
+	width: 100%;
+	text-align: center;
+}
+.dh{
+	font-size: 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.value, .key-attraction{
+	font-size: 18px;
+	font-family: 'Abel', sans-serif;
+}

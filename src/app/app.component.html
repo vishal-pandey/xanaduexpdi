@@ -1,0 +1,53 @@
+<mat-toolbar color="primary" class="menu_tooll">
+  
+  <a routerLink="/" style="text-decoration: none; color: initial;"><span>XANADU
+      <br><span style="font-family: 'Poiret One', cursive; font-size: 27px; color: #F44336; font-weight: bolder;">E&nbsp;&nbsp; x &nbsp;&nbsp;P &nbsp;&nbsp;d &nbsp;&nbsp;i</span>
+  </span></a>
+
+  <span class="fill"></span>
+  <span (click)="sidenav.toggle()" style="cursor: pointer;">
+    <mat-icon  style="font-size: 40px; color: #F44336;">menu</mat-icon>
+  </span>
+</mat-toolbar>
+
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav [mode]="mode" [fixedInViewport]="'true'" fixedTopGap="100" class="navigation">
+    <!-- <mat-toolbar color="primary" class="menu_tooll">
+  
+      <a routerLink="/" style="text-decoration: none; color: initial;"  (click)="sidenav.toggle()" ><span>XANADU
+          <br><span style="font-family: 'Poiret One', cursive; font-size: 27px; color: #F44336; font-weight: bolder;">E&nbsp;&nbsp; x &nbsp;&nbsp;P &nbsp;&nbsp;d &nbsp;&nbsp;i</span>
+      </span></a>
+
+      <span class="fill"></span>
+      <span (click)="sidenav.toggle()" style="cursor: pointer;">
+        <mat-icon  style="font-size: 40px; color: #F44336;">menu</mat-icon>
+      </span>
+    </mat-toolbar> -->
+    <section class="links">
+      <span class="theLink"><a routerLink="/events" (click)="sidenav.toggle(); scrollTop();">Events</a></span>
+      <span class="theLink"><a href="#">Activities</a></span>
+      <span class="theLink"><a href="#">Expeditions</a></span>
+      <span class="theLink"><a href="#">Gallery</a></span>
+      <span class="theLink"><a routerLink="/cafe" (click)="sidenav.toggle(); scrollTop();">Xanadu Café</a></span>
+      <span class="theLink"><a href="#">Meet Our Team</a></span>
+      <span class="theLink"><a href="#">Contact Us</a></span>
+    </section>
+  </mat-sidenav>
+
+  <mat-sidenav-content class="content">
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+
+
+
+
+
+
+
+
+
+
+

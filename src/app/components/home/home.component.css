@@ -1,0 +1,249 @@
+.slide1, .slide2{
+	width: 100%;
+	height: 600px;
+	
+	/*background-color: yellow;*/
+	background: url("https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-9/24058754_2097050300581340_8544321069220336403_n.jpg?oh=de5ec2418f7736a44f25d27db304b218&oe=5B18F4F5");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	/*background-position: fixed;*/
+	background-position: center;
+	background-attachment: fixed;
+}
+.slide1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.dabba-outer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	
+	width: 50%;
+	height: 50vh;
+	background-color: rgba(0,0,0,0.6);
+}
+.dabba{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 90%;
+	width: 100%;
+	margin: 10px;
+	border: 5px solid white;
+	font-family: 'Amatic SC', cursive;
+	
+}
+.sing{
+	align-self: flex-end;
+	font-size: 40px;
+	display: inline-block;
+	width: 50%;
+	color: red;
+	font-family: 'VT323', monospace;
+	text-shadow: 0px 0px 1px black;
+}
+.slide2{
+	padding: 30px;
+	height: auto;
+}
+.menu-element{
+	box-sizing: border-box;
+	width: 30%;
+	height: 400px;
+	box-shadow: 2px 2px 10px black;
+}
+.menu-element:hover{
+	border: 20px solid rgba(0,0,0,0.5);
+}
+.ml1{
+	width: 100%;
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+}
+.ml2{
+	/*margin-top: 7.5px;*/
+	/*margin-bottom: 7.5px;*/
+	width: 49.2%;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	/*float: left;*/
+	display: inline-block;
+}
+.theContainer{
+	width: 100%;
+	height: 410px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.theDivider{
+	margin-top: 70px;
+	color: white;
+	width: 40%;
+	height: 4px;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+.tentIcon{
+	width: 18%;
+	display: inline-block;
+	text-align: center;
+}
+.tentIcon img{
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+.dividerContainer{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.why-xanadu{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.why-xanadu img{
+	height: 400px;
+	width: 48%;
+	display: inline-block;
+	box-shadow: 5px 5px 10px black;
+}
+.why-xanadu-box{
+	width: 48%;
+	display: inline-block;
+	height: 100%;
+	background-color: white;
+	color: black;
+	box-shadow: 5px 5px 10px black;
+}
+.why-img{
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(0, 0, 0, 0.35)
+    ), url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/1.jpg");
+	background-size: 100% 100%;
+}
+.why , .xanadu{
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+	font-size: 60px;
+	justify-content: flex-end;
+	padding: 30px;
+	font-family: 'Luckiest Guy', cursive;
+}
+.xanadu{
+	justify-content: flex-start;
+	color:red;
+}
+.why{
+	color: white;
+}
+
+.event{
+	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/22310339_2071763753109995_8275352596123325016_n.jpg?oh=30eb3cd06122a9dc6981331dd47d3195&oe=5AEA40E5");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	/*font-family: 'Exo', sans-serif;*/
+	font-family: 'Luckiest Guy', cursive;
+	text-shadow: 0px 0px 10px black;
+	color: white;
+	transition: background 0.5s;
+}
+.event:hover{
+	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/15107197_1893121230974249_4297081265462708324_n.jpg?oh=17978f87bd44c2f0a0dc87344c671cbe&oe=5AE24239");
+	background-repeat: no-repeat;
+	background-size: 110% auto;
+	background-position: center;
+	color: red;
+}
+.expidition{
+	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/14457340_1857954544490918_9047167613587327442_n.jpg?oh=df23a21049f4db120dca9d8b219e8d33&oe=5ADFD2BC");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	/*font-family: 'Exo', sans-serif;*/
+	font-family: 'Luckiest Guy', cursive;
+	text-shadow: 0px 0px 10px black;
+	color: white;
+	transition: background 0.5s;
+}
+.expidition:hover{
+	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/17362493_1964603413826030_2554249770617296129_n.jpg?oh=7c53d0b9b7785b1363dc0e373beb3142&oe=5B212BEE");
+	background-repeat: no-repeat;
+	background-size: auto 120%;
+	background-position: center;	
+	color: red;
+}
+.activities{
+	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/26239414_1807649555936121_2365532679655312202_n.jpg?oh=6592dff47b431c6579deaf2834811b68&oe=5B1A7B66");
+	background-repeat: no-repeat;
+	background-size: 110% auto;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	/*font-family: 'Exo', sans-serif;*/
+	font-family: 'Luckiest Guy', cursive;
+	text-shadow: 0px 0px 10px black;
+	color: white;
+	transition: background 0.5s;
+}
+.activities:hover{
+	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/26168973_1788241771210233_5274339365027967271_n.jpg?oh=b526f7ae8fc15d5b0825e5cc795077ca&oe=5AE70E41");
+	background-repeat: no-repeat;
+	background-size: 120% auto;
+	background-position: center;	
+	color: red;
+}
+.cafe{
+	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/18034352_1979467565672948_7634810774733395381_n.jpg?oh=65c9235845af4c0446d8221dfc281f68&oe=5AE96D30");
+	background-repeat: no-repeat;
+	background-size: 110% auto;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	/*font-family: 'Exo', sans-serif;*/
+	font-family: 'Luckiest Guy', cursive;
+	text-shadow: 0px 0px 10px black;
+	color: white;
+	transition: background 0.5s;
+	
+}
+.cafe:hover{
+	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/18010228_1979463039006734_3241150471099033269_n.jpg?oh=e9e33e2a6f9d8144e8e341c58ab9f137&oe=5B1AB339");
+	background-repeat: no-repeat;
+	background-size: 120% auto;
+	background-position: center;	
+	text-shadow: 0px 0px 5px white;
+	color: red;
+}
+a{
+	text-decoration: none;
+}
