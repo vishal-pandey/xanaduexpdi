@@ -7,7 +7,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent, WhyXanadu } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -37,7 +37,8 @@ import { EventService } from './services/event.service';
     FooterComponent,
     EventsComponent,
     CafeComponent,
-    EventDetailsComponent
+    EventDetailsComponent,
+    WhyXanadu
   ],
   imports: [
     BrowserModule,
@@ -56,6 +57,7 @@ import { EventService } from './services/event.service';
     MatDialogModule,
   ],
   providers: [EventService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [WhyXanadu]
 })
 export class AppModule { }

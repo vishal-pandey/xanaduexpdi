@@ -115,6 +115,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
 .why-xanadu img{
 	height: 400px;

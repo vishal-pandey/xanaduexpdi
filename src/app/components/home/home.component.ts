@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
+
 declare var jquery:any;
 declare var $ :any;
 
@@ -9,7 +11,25 @@ declare var $ :any;
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
+
+
+
+
+  openDialog(): void {
+    let dialogRef = this.dialog.open(WhyXanadu, {
+      width: '1000px',
+      data: { name: "Vishal Pandey", animal: "fkjdshk" }
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
+  }
+
+
+
+
 
   scrollTop(){
   	// window.scrollTo(0, 0);
@@ -78,5 +98,26 @@ export class HomeComponent implements OnInit {
 
 
 
+
+}
+
+
+
+
+
+
+@Component({
+  selector: 'why-xanady',
+  templateUrl: 'why-xanadu.html',
+})
+export class WhyXanadu {
+
+  constructor(
+    public dialogRef: MatDialogRef<WhyXanadu>,
+    @Inject(MAT_DIALOG_DATA) public data: any) { }
+
+  onNoClick(): void {
+    this.dialogRef.close();
+  }
 
 }
