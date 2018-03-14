@@ -1,3 +1,75 @@
+.f-event{
+	width: 100%;
+	height: auto;
+	background-color: rgba(255,0,0,0.2);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.e1{
+	width: 700px;
+	/*background-color: green;*/
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*overflow: auto;*/
+	overflow: hidden;
+	padding: 0;
+}
+.e-slider{
+	height: 100%;
+	width: 100%;
+	background-color: orange;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.u-event, .p-event{
+	width: 100%;
+	height: auto;
+	background-color: rgba(0,255,0,0.2);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+
+}
+.e-slider span img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.p-event{
+	background-color: rgba(0,0,255,0.2);
+}
+
+
+.carousel-inner{
+	height: 100%;
+	width: 100%;
+}
+.myItem img{
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 368px;
+}
+.mySlider{
+	height: 700px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 .heading{
 	text-align: center;
 	font-size: 30px;
@@ -13,13 +85,13 @@
 .events{
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	/*margin-top: 10px;*/
 	flex-wrap: wrap;
 }
 .theEvent{
-	height: 400px;
+	height: 300px;
 	display: inline-block;
 	margin-top: 10px;
 	/*width: 48%;*/
@@ -64,7 +136,22 @@
 	/*transition: width 0.5s;*/
 	transition: height 0.5s;
 }
+
+
+
+.wall{
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+
 /*.otherEvent img:hover{
 	height: 450px;
 	z-index: 4;
 }*/
+.carousel-control{
+	background: unset;
+}
+.item img{
+	box-shadow: 5px 5px 5px black;
+}

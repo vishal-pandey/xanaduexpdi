@@ -34,8 +34,8 @@ export class HomeComponent implements OnInit {
   scrollTop(){
   	// window.scrollTo(0, 0);
   	var body = $("html, body");
-	body.stop().animate({scrollTop:0}, 500, 'swing', function() {
-	});
+			body.stop().animate({scrollTop:0}, 500, 'swing', function() {
+		});
   }
 
   ngOnInit() {

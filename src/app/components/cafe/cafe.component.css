@@ -1,4 +1,59 @@
 .cafe-container{
 	min-height: 100vh;
+	background-color: #CFD8DC;
+}
+.slider{
+	width: 100%;
+	height: 300px;
+	background-color: #4E342E;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 60px;
+	color: #ECEFF1;
+	font-family: 'Luckiest Guy', cursive;
+}
+.est{
+	font-size: 20px;
+	font-family: cursive;
+}
+.content{
+	/*max-width: 1000px;*/
+	height: auto;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+}
+.section1{
+	width: 100%;
+	min-height: 360px;
+	/*background-color: #ECEFF1;*/
 	background-color: white;
+	border-bottom: 1px solid lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	padding: 20px;
+}
+.section1 div{
+	font-size: 18px;
+	font-family: 'Exo', sans-serif;
+	margin: 0;
+	width: 60%;
+	align-self: center;
+}
+.section1 .theimg{
+	max-height: 200px;
+	align-self: center;
+	border: 5px solid #546E7A;
+}
+.map{
+	width: 500px;
+}
+.section1 div h2{
+	/*text-decoration: underline;*/
+	color: black;
+	font-family: 'Shrikhand'
 }

@@ -1,6 +1,6 @@
 <mat-toolbar color="primary" class="menu_tooll">
   
-  <a routerLink="/" style="text-decoration: none; color: initial;"><span>XANADU
+  <a routerLink="/" style="text-decoration: none; color: initial;" (click)="scrollTop()"><span>XANADU
       <br><span style="font-family: 'Poiret One', cursive; font-size: 27px; color: #F44336; font-weight: bolder;">E&nbsp;&nbsp; x &nbsp;&nbsp;P &nbsp;&nbsp;d &nbsp;&nbsp;i</span>
   </span></a>
 
@@ -25,12 +25,12 @@
     </mat-toolbar> -->
     <section class="links">
       <span class="theLink"><a routerLink="/events" (click)="sidenav.toggle(); scrollTop();">Events</a></span>
-      <span class="theLink"><a href="#">Activities</a></span>
-      <span class="theLink"><a href="#">Expeditions</a></span>
-      <span class="theLink"><a href="#">Gallery</a></span>
+      <span class="theLink"><a href="#">Expeditions<button class="comming"> Soon</button></a></span>
+      <span class="theLink"><a href="#">Diaries<button class="comming"> Soon</button></a></span>
+      <span class="theLink"><a href="#">Gallery<button class="comming"> Soon</button></a></span>
       <span class="theLink"><a routerLink="/cafe" (click)="sidenav.toggle(); scrollTop();">Xanadu Café</a></span>
-      <span class="theLink"><a href="#">Meet Our Team</a></span>
-      <span class="theLink"><a href="#">Contact Us</a></span>
+      <span class="theLink"><a href="#">Meet Our Team<button class="comming"> Soon</button></a></span>
+      <span class="theLink"><a href="#">Contact Us<button class="comming"> Soon</button></a></span>
     </section>
   </mat-sidenav>
 

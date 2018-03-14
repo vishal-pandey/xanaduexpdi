@@ -40,3 +40,13 @@
 .theLink a:hover{
 	color:#F44336;
 }
+
+.comming{
+	position: absolute;
+	font-size: 9px;
+	color: red;
+	border: 2px solid red;
+	border-radius: 10px;
+
+
+}
