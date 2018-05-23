@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent, WhyXanadu } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
@@ -23,10 +24,14 @@ import {MatCardModule} from '@angular/material/card';
 import {MatDialogModule} from '@angular/material/dialog';
 import { EventsComponent } from './components/events/events.component';
 import { CafeComponent } from './components/cafe/cafe.component';
-import { EventDetailsComponent } from './components/event-details/event-details.component';
+import { EventDetailsComponent, Ticket } from './components/event-details/event-details.component';
 import { EventService } from './services/event.service';
-
-
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material';
+import { ContactComponent } from './components/contact/contact.component';
+import { ContactService } from './services/contact.service';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { ThankyouComponent } from './components/thankyou/thankyou.component';
 
 
 @NgModule({
@@ -38,7 +43,10 @@ import { EventService } from './services/event.service';
     EventsComponent,
     CafeComponent,
     EventDetailsComponent,
-    WhyXanadu
+    WhyXanadu,
+    Ticket,
+    ContactComponent,
+    ThankyouComponent
   ],
   imports: [
     BrowserModule,
@@ -55,9 +63,13 @@ import { EventService } from './services/event.service';
     MatDividerModule,
     MatCardModule,
     MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
+    HttpClientModule,
+    MatSnackBarModule
   ],
-  providers: [EventService],
+  providers: [EventService, ContactService],
   bootstrap: [AppComponent],
-  entryComponents: [WhyXanadu]
+  entryComponents: [WhyXanadu, Ticket]
 })
 export class AppModule { }

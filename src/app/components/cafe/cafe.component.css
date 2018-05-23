@@ -57,3 +57,23 @@
 	color: black;
 	font-family: 'Shrikhand'
 }
+
+
+@media only screen and (max-width: 768px) {
+	.slider{
+		height: 150px;
+		font-size: 25px;
+	}
+	.section1 div{
+		width: 100%;
+	}
+	.map{
+		width: 100%;
+	}
+	.section1 .theimg{
+		max-width: 100%;
+	}
+	.section1 div{
+		text-align: justify!important;
+	}
+}

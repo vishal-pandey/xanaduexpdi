@@ -1,9 +1,17 @@
+.container{
+	width: 100%;
+	height: auto;
+	background: url("https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-9/24058754_2097050300581340_8544321069220336403_n.jpg?oh=de5ec2418f7736a44f25d27db304b218&oe=5B18F4F5");
+	background-size: 100% auto;
+	background-position: center;
+	background-attachment: fixed;
+}
 .slide1, .slide2{
 	width: 100%;
 	height: 600px;
 	
 	/*background-color: yellow;*/
-	background: url("https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-9/24058754_2097050300581340_8544321069220336403_n.jpg?oh=de5ec2418f7736a44f25d27db304b218&oe=5B18F4F5");
+	/*background: url("https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-9/24058754_2097050300581340_8544321069220336403_n.jpg?oh=de5ec2418f7736a44f25d27db304b218&oe=5B18F4F5");*/
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	/*background-position: fixed;*/
@@ -247,4 +255,96 @@
 }
 a{
 	text-decoration: none;
+}
+
+
+
+
+
+
+/*mobile responsive*/
+@media only screen and (max-width: 768px) {
+	.dabba{
+		font-size: 20px;
+	}
+	.dabba-outer{
+		width: 85%;
+		margin-top: 25px;
+		height: 150px;
+	}
+	.event, .cafe, .expidition, .activities{
+		width: 100%;
+		height: 150px;
+		margin-top: 10px;
+		background-size: 100% auto;
+		font-size: 40px;
+		box-shadow: none;
+	}
+	.event:hover, .cafe:hover, .expidition:hover, .activities:hover{
+		background-size: 100% auto;
+	}
+
+	.theContainer{
+		display: block;
+		height: auto;
+	}
+	.ml2{
+		width: 100%;
+	}
+	.sing{
+		font-size: 18px;
+	}
+	.container{
+		background: unset;
+	}
+
+	.slide1, .slide2{	 
+		height: auto;	
+		width: 100%;
+	}
+	section.slide2{
+		padding: 0;
+	}
+	.menu-element{
+		width: 100%;
+	}
+
+
+	.theDivider{
+		margin-top: 10px;
+	}
+	.tentIcon img{
+		width: 50px;
+		margin-top: 10px;
+	}
+	.dividerContainer{
+		height: 60px
+	}
+
+	.why-xanadu{
+		height: 150px;
+	}
+	.why-xanadu img{
+		height: 150px;
+	}
+	.why-img{
+		background: linear-gradient(
+	      rgba(0, 0, 0, 0.35), 
+	      rgba(0, 0, 0, 0.35)
+	    ), url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/1.jpg");
+		background-size: 100% 100%;
+	}
+	.why , .xanadu{
+		display: flex;
+		/*justify-content: center;*/
+		align-items: center;
+		font-size: 25px;
+		justify-content: flex-end;
+		padding: 30px;
+		font-family: 'Luckiest Guy', cursive;
+	}
+	
+	.why-xanadu-box{
+		box-shadow: none;
+	}	
 }

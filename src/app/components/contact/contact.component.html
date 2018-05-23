@@ -1,0 +1,9 @@
+<section class="container">
+	<section class="main">
+		<h1>Get In Touch With Zanadu Team !</h1>
+		<input type="text" placeholder="What Should We Call You?" class="theInput" #name>
+		<input type="text" placeholder="Do You Have A Mail Id" class="theInput" #email>
+		<textarea placeholder="Ask Whatever You Want!" class="theTextarea" #query></textarea>
+		<button mat-raised-button class="submitButton" (click)="submitContact(name.value, email.value, query.value)">SEND !</button>
+	</section>
+</section>
