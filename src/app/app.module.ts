@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatTabsModule} from '@angular/material/tabs';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
@@ -32,6 +33,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ContactService } from './services/contact.service';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { ThankyouComponent } from './components/thankyou/thankyou.component';
+import { DiariesComponent } from './components/diaries/diaries.component';
+import { DiariesService } from './services/diaries.service';
+import { ExpeditionComponent } from './components/expedition/expedition.component';
 
 
 @NgModule({
@@ -46,7 +50,9 @@ import { ThankyouComponent } from './components/thankyou/thankyou.component';
     WhyXanadu,
     Ticket,
     ContactComponent,
-    ThankyouComponent
+    ThankyouComponent,
+    DiariesComponent,
+    ExpeditionComponent
   ],
   imports: [
     BrowserModule,
@@ -66,9 +72,10 @@ import { ThankyouComponent } from './components/thankyou/thankyou.component';
     MatFormFieldModule,
     MatInputModule,
     HttpClientModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatTabsModule
   ],
-  providers: [EventService, ContactService],
+  providers: [EventService, ContactService, DiariesService],
   bootstrap: [AppComponent],
   entryComponents: [WhyXanadu, Ticket]
 })

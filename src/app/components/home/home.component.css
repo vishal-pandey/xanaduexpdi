@@ -1,7 +1,8 @@
 .container{
 	width: 100%;
 	height: auto;
-	background: url("https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-9/24058754_2097050300581340_8544321069220336403_n.jpg?oh=de5ec2418f7736a44f25d27db304b218&oe=5B18F4F5");
+	/*background: url("https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-9/24058754_2097050300581340_8544321069220336403_n.jpg?oh=de5ec2418f7736a44f25d27db304b218&oe=5B18F4F5");*/
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/xanaduexpdiphotos/7.jpg");
 	background-size: 100% auto;
 	background-position: center;
 	background-attachment: fixed;
@@ -143,7 +144,7 @@
 	background: linear-gradient(
       rgba(0, 0, 0, 0.35), 
       rgba(0, 0, 0, 0.35)
-    ), url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/1.jpg");
+    ), url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/xanaduexpdiphotos/1.jpg");
 	background-size: 100% 100%;
 }
 .why , .xanadu{
@@ -164,7 +165,8 @@
 }
 
 .event{
-	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/22310339_2071763753109995_8275352596123325016_n.jpg?oh=30eb3cd06122a9dc6981331dd47d3195&oe=5AEA40E5");
+	/*background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/22310339_2071763753109995_8275352596123325016_n.jpg?oh=30eb3cd06122a9dc6981331dd47d3195&oe=5AEA40E5");*/
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/xanaduexpdiphotos/6.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-position: center;
@@ -179,14 +181,15 @@
 	transition: background 0.5s;
 }
 .event:hover{
-	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/15107197_1893121230974249_4297081265462708324_n.jpg?oh=17978f87bd44c2f0a0dc87344c671cbe&oe=5AE24239");
+	/*background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/15107197_1893121230974249_4297081265462708324_n.jpg?oh=17978f87bd44c2f0a0dc87344c671cbe&oe=5AE24239");*/
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/xanaduexpdiphotos/10.jpg");
 	background-repeat: no-repeat;
 	background-size: 110% auto;
 	background-position: center;
 	color: red;
 }
 .expidition{
-	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/14457340_1857954544490918_9047167613587327442_n.jpg?oh=df23a21049f4db120dca9d8b219e8d33&oe=5ADFD2BC");
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/xanaduexpdiphotos/8.jpg");
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 	background-position: center;
@@ -201,14 +204,14 @@
 	transition: background 0.5s;
 }
 .expidition:hover{
-	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/17362493_1964603413826030_2554249770617296129_n.jpg?oh=7c53d0b9b7785b1363dc0e373beb3142&oe=5B212BEE");
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/xanaduexpdiphotos/9.jpg");
 	background-repeat: no-repeat;
 	background-size: auto 120%;
 	background-position: center;	
 	color: red;
 }
 .activities{
-	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/26239414_1807649555936121_2365532679655312202_n.jpg?oh=6592dff47b431c6579deaf2834811b68&oe=5B1A7B66");
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/xanaduexpdiphotos/11.jpg");
 	background-repeat: no-repeat;
 	background-size: 110% auto;
 	background-position: center;
@@ -223,14 +226,14 @@
 	transition: background 0.5s;
 }
 .activities:hover{
-	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/26168973_1788241771210233_5274339365027967271_n.jpg?oh=b526f7ae8fc15d5b0825e5cc795077ca&oe=5AE70E41");
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/xanaduexpdiphotos/13.jpg");
 	background-repeat: no-repeat;
 	background-size: 120% auto;
 	background-position: center;	
 	color: red;
 }
 .cafe{
-	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/18034352_1979467565672948_7634810774733395381_n.jpg?oh=65c9235845af4c0446d8221dfc281f68&oe=5AE96D30");
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/xanaduexpdiphotos/2.jpg");
 	background-repeat: no-repeat;
 	background-size: 110% auto;
 	background-position: center;
@@ -246,7 +249,7 @@
 	
 }
 .cafe:hover{
-	background: url("https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/18010228_1979463039006734_3241150471099033269_n.jpg?oh=e9e33e2a6f9d8144e8e341c58ab9f137&oe=5B1AB339");
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/xanaduexpdiphotos/3.jpg");
 	background-repeat: no-repeat;
 	background-size: 120% auto;
 	background-position: center;	

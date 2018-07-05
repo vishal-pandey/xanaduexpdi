@@ -1,16 +1,90 @@
-<!-- <section class="events-container">
-	<h2 class="heading">Events Wall</h2>
-	<section class="events animated flipInX">
-		<a routerLink="/event-details/RoCk N RoLL HoLi"><div class="theEvent otherEvent">
-			<img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/28377829_1847998758567867_8075176712013364421_n.jpg?oh=a7508b9cb39eb202e2e32930b011f184&oe=5B4E2534">
-		</div></a>
+<section class="container">
+	<section class="main">
+		<section class="event-wall">
+			<h2 align="center" class="main-title">EVENT WALL</h2>
+			<section class="tab-container">
+				<div class="carnival wall-tab">
+					<h3>Xanadu Carnival</h3>
+					<mat-tab-group>
+					  <mat-tab *ngFor="let event of carnival">
+					  	<ng-template mat-tab-label>
+					  		<div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+						      <b>{{event.event_name}}</b>
+						      <i style="font-size: 12px">({{event.event_date | date}})</i>
+					  		</div>
+					    </ng-template>
+					    <section class="tab-content feacher-tab">
+						  	<img src="http://xanaduapi.vishalpandey.xyz/uploads/{{event.id}}.jpg">
+						  	<span><b>Venue : </b>{{event.event_venue}}</span>
+						  	<span><b>Details : </b>{{event.event_detail}}</span>
+					    </section>
+					  </mat-tab>
+					</mat-tab-group>
+				</div>
+				<div class="festival wall-tab">
+					<h3>Camper's Festival</h3>
+					<mat-tab-group>
+					  <mat-tab *ngFor="let event of camper">
+					  	<ng-template mat-tab-label>
+					  		<div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+						      <b>{{event.event_name}}</b>
+						      <i style="font-size: 12px">({{event.event_date | date}})</i>
+					  		</div>
+					    </ng-template>
+					    <section class="tab-content feacher-tab">
+						  	<img src="http://xanaduapi.vishalpandey.xyz/uploads/{{event.id}}.jpg">
+						  	<span><b>Venue : </b>{{event.event_venue}}</span>
+						  	<span><b>Details : </b>{{event.event_detail}}</span>
+					    </section>
+					  </mat-tab>
+					</mat-tab-group>
+				</div>
+			</section>
+		</section>
+		<section class="event-in-line">
+			<h2 align="center" class="main-title">EVENTS IN LINE</h2>
+			<section class="tab-w-container">
+				<mat-tab-group>
+				  <mat-tab *ngFor="let event of events">
+				  	<ng-template mat-tab-label>
+				  		<div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+					      <b>{{event.event_name}}</b>
+					      <i style="font-size: 12px">({{event.event_date | date}})</i>
+				  		</div>
+				    </ng-template>
+				    <section class="tab-content">
+					  	<img src="http://xanaduapi.vishalpandey.xyz/uploads/{{event.id}}.jpg">
+					  	<span><b>Venue : </b>{{event.event_venue}}</span>
+					  	<span><b>Details : </b>{{event.event_detail}}</span>
+				    </section>
+				  </mat-tab>
+				</mat-tab-group>
+			</section>
+		</section>
+		<section class="event-in-line">
+			<h2 align="center" class="main-title">PAST EVENTS</h2>
+			<section class="tab-w-container">
+				<mat-tab-group>
+				  <mat-tab *ngFor="let event of pastEvents">
+				  	<ng-template mat-tab-label>
+				  		<div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+					      <b>{{event.event_name}}</b>
+					      <i style="font-size: 12px">({{event.event_date | date}})</i>
+				  		</div>
+				    </ng-template>
+				    <section class="tab-content">
+					  	<img src="http://xanaduapi.vishalpandey.xyz/uploads/{{event.id}}.jpg">
+					  	<span><b>Venue : </b>{{event.event_venue}}</span>
+					  	<span><b>Details : </b>{{event.event_detail}}</span>
+				    </section>
+				  </mat-tab>
+				</mat-tab-group>
+			</section>
+		</section>
 	</section>
-	<br>
-	<br>
 </section>
- -->
 
-<section class="events-container">
+<section class="events-container" *ngIf="previous">
 	<h2 class="heading wall">EVENTS WALL</h2>
 	<section class="f-event">
 		<h3 class="heading" style="margin-bottom: 0;">Xanadu Carnival</h3>
@@ -43,15 +117,7 @@
 			  </a>
 			</div>
 		</div>
-		<!-- 
-		<div class="e1">
-			<div class="e-slider">
-				<span><img src="https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/A%20New%20Design%20(3).jpg"></span>
-			</div>
-			<div class="e-slider">
-				<span>Event 1 Season 2</span>
-			</div>
-		</div> -->
+
 		<h3 class="heading" style="margin-bottom: 0;">Camper's Festival</h3>
 		<div class="e1">
 			<div id="myCarousel" class="carousel slide mySlider" data-ride="carousel">
@@ -85,5 +151,4 @@
 			
 		</div>
 	</section>
-
 </section>

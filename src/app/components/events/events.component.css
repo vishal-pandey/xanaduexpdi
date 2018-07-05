@@ -1,4 +1,76 @@
-.f-event{
+.container{
+	width: 100%;
+}
+.main{
+	width: 100%;
+	min-height: 100vh;
+}
+.main-title{
+	background-color: #4e342e;
+	color: white;
+	padding: 20px;
+}
+.wall-tab{
+	width: 50%;
+	padding: 20px;
+	text-align: center;
+}
+.wall-tab h3{
+	background-color: white;
+	margin: 0;
+	padding: 20px;
+}
+.wall-tab mat-tab-group{
+
+	background-color: white;
+}
+
+.tab-container{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tab-w-container{
+	width: 100%;
+}
+.event-in-line{
+	width: 100%;
+	padding: 20px;
+	background-color: white;
+	margin: 20px 0;
+}
+.test{
+	width: 300px;
+	height: 300px;
+	background-color: green;
+}
+
+.tab-content{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.tab-content img{
+	width: 500px;
+	max-width: 100%;
+	height: 500px;
+}
+
+.feacher-tab{
+	height: 500px;
+	border-radius: 500px;
+}
+
+.feacher-tab img{
+	
+	border-radius: 500px;
+}
+
+
+/*.f-event{
 	width: 100%;
 	height: auto;
 	background-color: rgba(255,0,0,0.2);
@@ -9,11 +81,9 @@
 }
 .e1{
 	width: 700px;
-	/*background-color: green;*/
 	height: 400px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	/*overflow: auto;*/
 	overflow: hidden;
 	padding: 0;
 }
@@ -87,15 +157,12 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	/*margin-top: 10px;*/
 	flex-wrap: wrap;
 }
 .theEvent{
 	height: 300px;
 	display: inline-block;
 	margin-top: 10px;
-	/*width: 48%;*/
-	/*background-color: yellow;*/
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -133,7 +200,6 @@
 	width: auto;
 	height: 100%;
 	max-width: 100%;
-	/*transition: width 0.5s;*/
 	transition: height 0.5s;
 }
 
@@ -145,10 +211,7 @@
 
 
 
-/*.otherEvent img:hover{
-	height: 450px;
-	z-index: 4;
-}*/
+
 .carousel-control{
 	background: unset;
 }
@@ -176,4 +239,4 @@
 	.myItem img{
 		max-height: 150px;
 	}
-}
+}*/

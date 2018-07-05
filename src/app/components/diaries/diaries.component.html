@@ -1,0 +1,39 @@
+<section class="container">
+	<section class="main">
+		<h2 class="heading">DIARIES</h2>
+		<section class="content">
+			<div class="para1">
+				We love creating memories for life Xanadu family grows bigger and stronger through these memories !
+			</div>
+			<div class="divider-r"></div>
+			<div class="photos">
+				<h3>Photos</h3>
+				<div class="photos-container">
+					<span *ngFor="let ins of instaImg; let i = index">
+						<mat-card >
+							<img src="{{ins.images.low_resolution.url}}">
+						</mat-card>
+					</span>
+				</div>
+			</div>
+			<div class="divider-l"></div>
+			<div class="videos">
+				<h3>Videos</h3>
+				<div class="videos-container">
+					<span *ngFor="let ins of instaVideo; let i = index">
+						<mat-card >
+							<video controls>
+							  <source src="{{ins.videos.standard_resolution.url}}" type="video/mp4">
+							</video>
+						</mat-card>
+					</span>
+				</div>
+			</div>
+			<div class="divider-r"></div>
+			<div class="blog">
+				<h3>Our Blog</h3>
+				<div class="blog-container"></div>
+			</div>
+		</section>
+	</section>
+</section>

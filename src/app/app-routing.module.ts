@@ -6,6 +6,8 @@ import { CafeComponent } from './components/cafe/cafe.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ThankyouComponent } from './components/thankyou/thankyou.component';
 import { EventDetailsComponent } from './components/event-details/event-details.component';
+import { DiariesComponent } from './components/diaries/diaries.component';
+import { ExpeditionComponent } from './components/expedition/expedition.component';
 
 const routes: Routes = [
 	{path: '', component: HomeComponent },
@@ -14,6 +16,8 @@ const routes: Routes = [
 	{path: 'cafe', component: CafeComponent },
 	{path: 'contact', component: ContactComponent },
 	{path: 'thankyou', component: ThankyouComponent },
+	{path: 'diaries', component: DiariesComponent },
+	{path: 'expeditions', component: ExpeditionComponent },
 ];
 
 @NgModule({

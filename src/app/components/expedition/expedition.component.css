@@ -1,0 +1,38 @@
+.container{
+	width: 100%;
+	background-color: brown;
+	background: url("https://raw.githubusercontent.com/vishal-pandey/xanadu-content/master/xanaduexpdiphotos/leather.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.main{
+	width: 100%;
+	max-width: 1128px;
+	margin: 0 auto;
+	min-height: 100vh;
+}
+h2.heading{
+	background-color: brown;
+	padding: 100px;
+	color: white;
+	text-align: center;
+}
+.content{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.expeditions{
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-direction: column;
+	padding-left: 30px;
+}

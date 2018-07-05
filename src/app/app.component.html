@@ -25,12 +25,10 @@
     </mat-toolbar> -->
     <section class="links">
       <span class="theLink"><a routerLink="/events" (click)="sidenav.toggle(); scrollTop();">Events</a></span>
-      <span class="theLink"><a href="#">Expeditions<button class="comming"> Soon</button></a></span>
-      <span class="theLink"><a href="#">Diaries<button class="comming"> Soon</button></a></span>
-      <span class="theLink"><a href="#">Gallery<button class="comming"> Soon</button></a></span>
+      <span class="theLink"><a routerLink="/expeditions" (click)="sidenav.toggle(); scrollTop();">Expeditions</a></span>
+      <span class="theLink"><a routerLink="/diaries" (click)="sidenav.toggle(); scrollTop();">Diaries</a></span>
       <span class="theLink"><a routerLink="/cafe" (click)="sidenav.toggle(); scrollTop();">Xanadu Café</a></span>
       <span class="theLink"><a href="#">Meet Our Team<button class="comming"> Soon</button></a></span>
-      <span class="theLink"><a routerLink="/contact" (click)="sidenav.toggle(); scrollTop();">Contact Us<button class="comming"> Soon</button></a></span>
     </section>
   </mat-sidenav>
 

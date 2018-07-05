@@ -1,0 +1,13 @@
+<section class="container">
+	<section class="main">
+		<h2 class="heading">EXPEDITIONS</h2>
+		<section class="content">
+			<mat-card *ngFor="let ex of expeditions" class="expeditions">
+				<span><b>Name : </b> {{ex.name}} </span>
+				<span><b>Duration : </b> {{ex.duration}} </span>
+				<span><b>Price : </b> {{ex.price}} </span>
+				<span><b>Detail : </b> {{ex.details}} </span>
+			</mat-card>
+		</section>
+	</section>
+</section>
